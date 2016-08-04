@@ -1,0 +1,2 @@
+module GetMacsHelper
+end

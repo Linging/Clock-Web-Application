@@ -1,0 +1,17 @@
+<h1>Listing users&macs</h1>
+ 
+<table>
+  <tr>
+    <th>User</th>
+    <td>     </td>
+    <th>mac address</th>
+  </tr>
+ 
+  <% @employees.each do |eco| %>
+    <tr>
+      <td><%= eco.name %></td>
+      <td>     </td>
+      <td><%= eco.mac %></td>
+    </tr>
+  <% end %>
+</table>

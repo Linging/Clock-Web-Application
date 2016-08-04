@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mobile: MyString1
+  message: MyString1
+
+two:
+  mobile: MyString2
+  message: MyString2
+
+three:
+  mobile: MyString3
+  message: MyString3
+
+four:
+  mobile: MyString4
+  message: MyString4
+
+five:
+  mobile: MyString5
+  message: MyString5
+
+six:
+  mobile: MyString6
+  message: MyString6

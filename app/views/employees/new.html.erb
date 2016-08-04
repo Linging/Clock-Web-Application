@@ -1,0 +1,13 @@
+<%= form_tag('/employees')  do %>
+  <p>
+    <%= label_tag :name %><br>
+    <%= text_field_tag :name, params[:name] %>
+  </p>
+  <p>
+    <%= label_tag :mac %><br>
+    <%= text_field_tag :mac, params[:mac] %>
+  </p>
+  <p>
+    <%= submit_tag %>
+  </p>
+<% end %>
